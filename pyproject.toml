@@ -1,2 +1,2 @@
 [tool.pytest.ini_options]
-pythonpath = "pdfeditor"
+pythonpath = "src/pdfeditor"
