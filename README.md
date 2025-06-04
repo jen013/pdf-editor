@@ -14,11 +14,11 @@ PDF Editor is an application that lets users do basic PDF edits, such as croppin
   - Scaling pages
   - Resetting your edits
 - Create and name your new PDF file.
-- Preview the PDF file before saving.
+- Preview the PDF file before saving. (Only supported on Windows)
 
 ## Install and Run
 
-Python 3 is required. 
+Currently, this application is only fully supported on Windows. Python 3 is required.
 
 > **Note:** This project was created using Python 3.11.
 
@@ -64,5 +64,6 @@ py src\pdfeditor
 ## Future Development
 
 - Improve readability and look of TUI.
+- Add preview support for Linux and macOS.
 - Allow users to rearrange their pages in the editor.
 - Update packaging and installation directions to be more in line with modern Python standards.
