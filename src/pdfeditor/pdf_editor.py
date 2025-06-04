@@ -110,7 +110,21 @@ class PdfEditor:
 
 
     def exit(self):
-        sys.exit()
+        confirm = True
+
+        if self.manager.pages:
+            confirmation_prompt = ("Your changes have not been saved.\n\n"
+                                   
+                "Are you sure you want to EXIT and DISCARD all your edits? (Y/N)\n"
+                "\"Y\" to EXIT.\n"
+                "\"N\" to CANCEL.")
+            confirm = self.prompt_yes_no(confirmation_prompt)
+
+        if confirm:
+            print("EXITING...\n")
+            sys.exit()
+        else: 
+            print("EXIT CANCELED.\n")
 
 
     def add_files(self):
