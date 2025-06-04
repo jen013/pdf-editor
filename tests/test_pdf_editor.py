@@ -1,5 +1,5 @@
 import pytest
-from pdfeditor.pdf_editor import *
+from pdf_editor import *
 
 @pytest.fixture
 def basic_pr_str():

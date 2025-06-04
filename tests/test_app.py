@@ -1,5 +1,5 @@
 import pytest
-from pdfeditor.app import App, Page, Action, OFFSET
+from app import App, Page, Action, OFFSET
 
 @pytest.fixture
 def num_args():

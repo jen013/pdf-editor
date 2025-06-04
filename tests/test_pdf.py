@@ -1,5 +1,5 @@
 import pytest
-from pdfeditor.pdf import PdfManager
+from pdf import PdfManager
 
 @pytest.fixture
 def alphabet_4():
