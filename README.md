@@ -41,7 +41,7 @@ See [Creating virtual environments](https://docs.python.org/3/library/venv.html#
 
 ```shell
 # Create venv virtual environment on Windows
-python -m venv .env
+py -m venv .env
 
 # Activate virtual environment on Windows with cmd.exe
 .env\Scripts\activate.bat
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ```shell
 # In 'pdf-editor' directory on Windows
-python src\pdfeditor
+py src\pdfeditor
 ```
 
 ## Future Development
