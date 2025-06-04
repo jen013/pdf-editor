@@ -163,7 +163,7 @@ class PdfEditor:
             print("There are no pages to remove.")
             return
 
-        pagerange_prompt = f"Select pages to remove."
+        pagerange_prompt = (f"Select pages to remove.\n Example: \"1-4, 6, 10-12\"")
         pagerange_loop = PageRangeLoop(prompt=pagerange_prompt, convert=str_to_pagerange)
 
         failure_msg = f"{self.edit_page.details}\n\nFAILED TO REMOVE PAGES."
